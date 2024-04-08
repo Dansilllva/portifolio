@@ -1,0 +1,83 @@
+/*Fonte importada*/
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #414175;
+  font-family: "Jost", sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(128,34,251,1) 100%);
+  padding: 50px;
+}
+
+.card {
+  width: 40%;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px; /*arredonda borda*/
+  box-shadow: 0 0 0 8px #ffffff33; /*efeito de sombra*/
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+.card-avatar {
+  /*avatar*/
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+.card-name {
+  text-align: center;
+}
+
+.subtitle {
+  color: #011959;
+  font-size: medium;
+  text-align: justify;
+}
+
+p {
+  font-size: small;
+}
+
+.card-menu {
+  color: #011959;
+  display: inline; /*lista fica na mesma linha*/
+  margin: 50px 0 0 0;
+  text-align: center;
+  text-decoration: none; /*tira o sublinhado*/
+  padding: 7px; /*espaçamento entre os links*/
+}
+
+h3 {
+  font-size: medium;
+}
+.inicio {
+  font-size: x-small;
+}
+
+.form {
+  font-size: small;
+  padding: 5px;
+}
+
+#nome,
+#mail,
+#msg,
+#button {
+  display: block; /*cada input em um linha*/
+  margin: 10px 0px;
+  color: #414175;
+}
+.img-portfolio {
+  /*imagens do portfolio*/
+  display: block;
+  width: 90%;
+  padding: 5px;
+}
+
